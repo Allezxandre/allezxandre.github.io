@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandre Jouandin on Alexandre Jouandin</title>
+    <link>/</link>
+    <description>Recent content in Alexandre Jouandin on Alexandre Jouandin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Shrimp in Petri Dishes</title>
+      <link>/project/shrimp-in-petri-dishes/</link>
+      <pubDate>Fri, 13 Apr 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/project/shrimp-in-petri-dishes/</guid>
+      <description>&lt;p&gt;In collaboration with faculty at Université de Lorraine, this project focuses on the visual tracking of freshwater shrimp (Gammarus) in Petri dishes and use indicators about their movement to quantify the water quality (roughly, the more polluted the water, the less the shrimps will move).&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;demo/animated-screen.gif&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The goal of the project is the implementation of individual shrimp tracking using image processing with minimal user involvement. Through this tracking, it will be able to compute the movement of the shrimp from a video or a camera feed. En- vironmental research scientists at Université de Lorraine will then use the software to quantify the water more efficiently, as until now the tracking was done by hand using specialized software.&lt;/p&gt;
+
+&lt;p&gt;The implementation uses OpenCV for image processing, edge detection and contour detection. The tracking is performed using the Hungarian matching algorithm and a Kalman filter. Through this customized tracking algorithm, the software is able to keep track of each individual shrimp even in complex situations like blurry motion, and crossings with other shrimp.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

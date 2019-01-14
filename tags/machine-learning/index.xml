@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning on Alexandre Jouandin</title>
+    <link>/tags/machine-learning/</link>
+    <description>Recent content in machine-learning on Alexandre Jouandin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 13 Apr 2018 19:48:28 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shrimp in Petri Dishes</title>
+      <link>/project/shrimp-in-petri-dishes/</link>
+      <pubDate>Fri, 13 Apr 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/project/shrimp-in-petri-dishes/</guid>
+      <description>In collaboration with faculty at Université de Lorraine, this project focuses on the visual tracking of freshwater shrimp (Gammarus) in Petri dishes and use indicators about their movement to quantify the water quality (roughly, the more polluted the water, the less the shrimps will move).
+  The goal of the project is the implementation of individual shrimp tracking using image processing with minimal user involvement. Through this tracking, it will be able to compute the movement of the shrimp from a video or a camera feed.</description>
+    </item>
+    
+  </channel>
+</rss>
