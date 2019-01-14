@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer-security on Alexandre Jouandin</title>
+    <link>/tags/computer-security/</link>
+    <description>Recent content in computer-security on Alexandre Jouandin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
+    <lastBuildDate>Tue, 15 Jan 2019 12:07:06 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/computer-security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TikTok Police</title>
+      <link>/project/tiktok-police/</link>
+      <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
+      
+      <guid>/project/tiktok-police/</guid>
+      <description>After my work on fraud detection at Karos, I was interested to see if I could identify harassers on TikTok, the popular video app. With TikTok being this popular among teenagers, and with so little control over privacy settings, I felt this was a serious matter TikTok would need to tackle at one point.
+This project is still a work in progress, but already gave right to many interesting developments that involved many of my skills: the creation of the dataset alone led to the use of many reverse-engineering techniques, from SSL API man-in-the-middling to app reverse-engineering through de-compilation.</description>
+    </item>
+    
+  </channel>
+</rss>

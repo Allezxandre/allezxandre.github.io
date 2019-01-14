@@ -6,44 +6,171 @@
     <description>Recent content in Tags on Alexandre Jouandin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
+    <lastBuildDate>Fri, 04 May 2018 19:48:28 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>C/C&#43;&#43;</title>
+      <link>/tags/c-c&#43;&#43;/</link>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/tags/c-c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>/tags/java/</link>
+      <pubDate>Tue, 14 Jun 2016 00:37:05 -0500</pubDate>
+      
+      <guid>/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object-Oriented-Programming</title>
+      <link>/tags/object-oriented-programming/</link>
+      <pubDate>Tue, 14 Jun 2016 00:37:05 -0500</pubDate>
+      
+      <guid>/tags/object-oriented-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>/tags/ros/</link>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/tags/ros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer-security</title>
+      <link>/tags/computer-security/</link>
+      <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
+      
+      <guid>/tags/computer-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>computer-vision</title>
       <link>/tags/computer-vision/</link>
-      <pubDate>Fri, 13 Apr 2018 19:48:28 -0500</pubDate>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
       
       <guid>/tags/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>deep-learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>embed-systems</title>
+      <link>/tags/embed-systems/</link>
+      <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
+      
+      <guid>/tags/embed-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>/tags/golang/</link>
+      <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
+      
+      <guid>/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOS</title>
+      <link>/tags/ios/</link>
+      <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
+      
+      <guid>/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>machine-learning</title>
       <link>/tags/machine-learning/</link>
-      <pubDate>Fri, 13 Apr 2018 19:48:28 -0500</pubDate>
+      <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
       
       <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>open-cv</title>
-      <link>/tags/open-cv/</link>
-      <pubDate>Fri, 13 Apr 2018 19:48:28 -0500</pubDate>
+      <title>object-oriented-programming</title>
+      <link>/tags/object-oriented-programming/</link>
+      <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
       
-      <guid>/tags/open-cv/</guid>
+      <guid>/tags/object-oriented-programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>python </title>
+      <title>opencv</title>
+      <link>/tags/opencv/</link>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
       <link>/tags/python/</link>
-      <pubDate>Fri, 13 Apr 2018 19:48:28 -0500</pubDate>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
       
       <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry-pi</title>
+      <link>/tags/raspberry-pi/</link>
+      <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
+      
+      <guid>/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reverse-engineering</title>
+      <link>/tags/reverse-engineering/</link>
+      <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
+      
+      <guid>/tags/reverse-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robotics</title>
+      <link>/tags/robotics/</link>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swift</title>
+      <link>/tags/swift/</link>
+      <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
+      
+      <guid>/tags/swift/</guid>
       <description></description>
     </item>
     

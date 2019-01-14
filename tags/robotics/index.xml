@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robotics on Alexandre Jouandin</title>
+    <link>/tags/robotics/</link>
+    <description>Recent content in robotics on Alexandre Jouandin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
+    <lastBuildDate>Fri, 04 May 2018 19:48:28 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Turtlebot</title>
+      <link>/project/turtlebot/</link>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/project/turtlebot/</guid>
+      <description>This project was done in pairs in the context of a class of Autonomous Robotics. We built SLAM-aided task planning software for ROS. The software was written in a mix of C++ and Python and ran on Kinect-enabled Turtlebots. We implemented:
+ Object detection from laser data Object collision avoidance Face tracking Infrared-aided auto-docking Landmark recognition Visual localization WiFi signal localization Mapping Occupancy mapping Task planning  At the end of the project, the robot was able to carry-out a list of predefined tasks, namely undocking from its base, scouting around a building, mapping Wi-Fi hotspot locations, coming back to its starting point, and autodocking.</description>
+    </item>
+    
+  </channel>
+</rss>

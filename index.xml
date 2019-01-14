@@ -6,31 +6,284 @@
     <description>Recent content in Alexandre Jouandin on Alexandre Jouandin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>TikTok Police</title>
+      <link>/project/tiktok-police/</link>
+      <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
+      
+      <guid>/project/tiktok-police/</guid>
+      <description>
+
+&lt;p&gt;After my work on fraud detection at Karos, I was interested to see if I could &lt;strong&gt;identify harassers on TikTok&lt;/strong&gt;, the popular video app.
+With TikTok being this popular among teenagers, and with so little control over privacy settings, I felt this was a serious matter TikTok would need to tackle at one point.&lt;/p&gt;
+
+&lt;p&gt;This project is still a work in progress, but already gave right to many interesting developments that involved many of my skills: the creation of the dataset alone led to the use of many reverse-engineering techniques, from SSL API man-in-the-middling to app reverse-engineering through de-compilation.&lt;/p&gt;
+
+&lt;p&gt;I am currently writing a blog post to describe this process of data creation, but below is a screen capture of the complex set-up I came up with to circumvent TikTok&amp;rsquo;s counter-measures against bots:&lt;/p&gt;
+
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;/img/tik-tok-demo/anim.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;/img/tik-tok-demo/anim.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;/img/tik-tok-demo/anim.gif&#34;/&gt;
+&lt;img src=&#34;/img/tik-tok-demo/anim.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    The dataset creation system in action
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;As of today, I have finished cleaning the data and selecting features. I am now working on creating various models of prediction and will present the results shortly after.&lt;/p&gt;
+
+&lt;h2 id=&#34;stay-tuned&#34;&gt;Stay tuned!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Shrimp in Petri Dishes</title>
       <link>/project/shrimp-in-petri-dishes/</link>
-      <pubDate>Fri, 13 Apr 2018 19:48:28 -0500</pubDate>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
       
       <guid>/project/shrimp-in-petri-dishes/</guid>
-      <description>&lt;p&gt;In collaboration with faculty at Université de Lorraine, this project focuses on the visual tracking of freshwater shrimp (Gammarus) in Petri dishes and use indicators about their movement to quantify the water quality (roughly, the more polluted the water, the less the shrimps will move).&lt;/p&gt;
+      <description>&lt;p&gt;In collaboration with faculty at Université de Lorraine, this project focused on the &lt;strong&gt;visual tracking of freshwater shrimp&lt;/strong&gt; (&lt;em&gt;Gammarus&lt;/em&gt;) in Petri dishes and used indicators about their movement to quantify the water quality (roughly, the more polluted the water, the less the shrimps will move).&lt;/p&gt;
 
 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;demo/animated-screen.gif&#34; /&gt;
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;demo/clip5-output.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;demo/clip5-output.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;demo/clip5-output.gif&#34;/&gt;
+&lt;img src=&#34;demo/clip5-output.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
 
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    Sample output of the resulting algorithm
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
 
 &lt;/figure&gt;
 
-&lt;p&gt;The goal of the project is the implementation of individual shrimp tracking using image processing with minimal user involvement. Through this tracking, it will be able to compute the movement of the shrimp from a video or a camera feed. En- vironmental research scientists at Université de Lorraine will then use the software to quantify the water more efficiently, as until now the tracking was done by hand using specialized software.&lt;/p&gt;
+&lt;p&gt;The goal of the project was the implementation of individual shrimp tracking using image processing with minimal user involvement. Through this tracking, the algorithm was able to compute the movement of the shrimp from a video or a camera feed. Environmental research scientists at &lt;a href=&#34;https://en.wikipedia.org/wiki/University_of_Lorraine&#34; target=&#34;_blank&#34;&gt;Université de Lorraine&lt;/a&gt; were then to use the software to quantify the water pollution more efficiently, as up to the completion of the project the tracking was done by hand by the research scientists.&lt;/p&gt;
 
-&lt;p&gt;The implementation uses OpenCV for image processing, edge detection and contour detection. The tracking is performed using the Hungarian matching algorithm and a Kalman filter. Through this customized tracking algorithm, the software is able to keep track of each individual shrimp even in complex situations like blurry motion, and crossings with other shrimp.&lt;/p&gt;
+&lt;p&gt;The implementation used &lt;strong&gt;OpenCV&lt;/strong&gt; for image processing, edge detection and contour detection. The tracking was performed using the &lt;a href=&#34;https://wikipedia.org/wiki/Hungarian_algorithm&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Hungarian matching algorithm&lt;/strong&gt;&lt;/a&gt; and a &lt;a href=&#34;https://wikipedia.org/wiki/Kalman_filter&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Kalman filter&lt;/strong&gt;&lt;/a&gt;. Through this customized tracking algorithm, the software is able to keep track of each individual shrimp even in complex situations like blurry motion, and crossings with other shrimp.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Turtlebot</title>
+      <link>/project/turtlebot/</link>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/project/turtlebot/</guid>
+      <description>&lt;p&gt;This project was done in pairs in the context of a class of Autonomous Robotics. We built SLAM-aided task planning software for ROS. The software was written in a mix of C++ and Python and ran on Kinect-enabled &lt;a href=&#34;https://www.turtlebot.com&#34; target=&#34;_blank&#34;&gt;Turtlebots&lt;/a&gt;. We implemented:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Object detection from laser data&lt;/li&gt;
+&lt;li&gt;Object collision avoidance&lt;/li&gt;
+&lt;li&gt;Face tracking&lt;/li&gt;
+&lt;li&gt;Infrared-aided auto-docking&lt;/li&gt;
+&lt;li&gt;Landmark recognition&lt;/li&gt;
+&lt;li&gt;Visual localization&lt;/li&gt;
+&lt;li&gt;WiFi signal localization&lt;/li&gt;
+&lt;li&gt;Mapping&lt;/li&gt;
+&lt;li&gt;Occupancy mapping&lt;/li&gt;
+&lt;li&gt;Task planning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At the end of the project, the robot was able to carry-out a list of predefined tasks, namely undocking from its base,
+scouting around a building, mapping Wi-Fi hotspot locations, coming back to its starting point, and autodocking.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;demo/turtlebot.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JouTube</title>
+      <link>/project/high-performance-video-server/</link>
+      <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
+      
+      <guid>/project/high-performance-video-server/</guid>
+      <description>&lt;p&gt;This project stemmed from the need of downloading files securely from iOS, an Apple TV or a Mac. A server written (from scratch) in Golang takes care of downloading all sorts of files, and through an app on the device, a user can add, pause, and remove downloads. A file still downloading on the server can then be downloaded on or live streamed to the phone. For video files, the server even supports live re-encoding of the files in an iOS-compatible format that follows Apple’s efficient HTTP Live Streaming (HLS) protocol.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;screens.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;screens.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;screens.gif&#34;/&gt;
+&lt;img src=&#34;screens.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    On-the-fly re-encoding of a download by the server
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;The code makes extensive use of Golang’s concurrency features, which was chosen for this purpose. Communications between the server and the applications use gRPC, Google’s modern take on the RPC protocol that supports HTTP/2 out of the box. The code also re-implements a good deal of Apple’s HLS server tools like the segmenters, the variant playlist creator. Along with the conversion, those are handled through calls to the FFmpeg open-source framework.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iOS Garage Door Opener</title>
+      <link>/project/ios-garage-door-opener/</link>
+      <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
+      
+      <guid>/project/ios-garage-door-opener/</guid>
+      <description>&lt;p&gt;This project was done in freelance for a French start-up that takes an attempt at popularizing private parking space sharing. The goal was to build an iOS app that connects via Bluetooth-LE to a Raspberry-Pi with a &lt;a href=&#34;https://greatscottgadgets.com/yardstickone/&#34; target=&#34;_blank&#34;&gt;sub-1 GHz transceiver dongle&lt;/a&gt;. Through the Raspberry Pi acting as a Bluetooth-LE interface to the dongle, the iOS App could listen, record, and transmit garage door opener signals.&lt;/p&gt;
+
+&lt;p&gt;The Raspberry-Pi software implementation was done in Golang, as it allows cross-compilation of a single binary containing all required libraries, and allowed the code to be both portable and optimized. The communication between the iOS device and the Raspberry-Pi was handled using GATT from the Bluetooth-LE protocol. The dongle was later replaced by lower-level transceivers that were operated through the Raspberry-Pi&amp;rsquo;s GPIO ports.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CinetiX</title>
+      <link>/project/cinetix/</link>
+      <pubDate>Tue, 14 Jun 2016 00:37:05 -0500</pubDate>
+      
+      <guid>/project/cinetix/</guid>
+      <description>&lt;p&gt;This project was done in teams of 5 students in the context of a class on Advanced Software Engineering.&lt;/p&gt;
+
+&lt;p&gt;We set as a goal to build a physics engine and a user interface. The end user would then be able to create objects and
+play with the physics engine through the user interface.&lt;/p&gt;
+
+&lt;p&gt;This project involved an interesting mix of prototyping, Linear Algebra applications, UI design, and team workflows.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;demo/screen1.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Screenshot of the User Interface.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>International Geek Week</title>
+      <link>/project/international-geek-week/</link>
+      <pubDate>Mon, 14 Mar 2016 00:37:24 -0500</pubDate>
+      
+      <guid>/project/international-geek-week/</guid>
+      <description>&lt;p&gt;This is an iPad app that was used as an interactive quiz for an exposition on climate change based in Toulouse. The app featured questions that compared France and UK on various ecologic fields, and visitors had to pick answers by sliding the countries flags on a numeric scale.&lt;/p&gt;
+
+&lt;p&gt;I built the app from scratch. I built the user interface and its animations, the logic behind the app, and even the questions for the Quiz. The app was meant to be run on an iPad 2, which does not handle blurs natively, so I had to backport code responsible for blur effects myself, and as a student in the Applied Mathematics field, I found this back porting experience to be very formative. At the exhibition, the quiz had a lot of success, because it made people grasp orders of magnitude by themselves. I was conducting the quiz, and seeing people figure out how to use the app by themselves was very gratifying for me.&lt;/p&gt;
+
+&lt;p&gt;The code is kept in a private repository for copyright purposes, but here are some screenshots of the finished application:&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen1.png&#34; &gt;
+  &lt;img src=&#34;/project/international-geek-week/screens/screen1.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen2.png&#34; &gt;
+  &lt;img src=&#34;/project/international-geek-week/screens/screen2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen3.png&#34; &gt;
+  &lt;img src=&#34;/project/international-geek-week/screens/screen3.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Frenchize</title>
+      <link>/project/smart-frenchize/</link>
+      <pubDate>Sat, 29 Nov 2014 00:19:28 -0500</pubDate>
+      
+      <guid>/project/smart-frenchize/</guid>
+      <description>&lt;p&gt;A watchface for the Pebble Watch that displays useful informations like weather, now playing music, and upcoming calendar events on your wrist.&lt;/p&gt;
+
+&lt;p&gt;The app used a third-party iPhone App to pull data from the phone. I first drafted the design for the watch app. I then developed a logic behind the watch app behavior: it was able to switch screens or change button actions cleverly. I also used the latest features available at the time on the Pebble watch, like permanent storage to make the watch app work even without a connection to the phone.&lt;/p&gt;
 </description>
     </item>
     

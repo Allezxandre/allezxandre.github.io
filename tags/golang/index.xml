@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on Alexandre Jouandin</title>
+    <link>/tags/golang/</link>
+    <description>Recent content in golang on Alexandre Jouandin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
+    <lastBuildDate>Fri, 30 Mar 2018 10:36:54 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JouTube</title>
+      <link>/project/high-performance-video-server/</link>
+      <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
+      
+      <guid>/project/high-performance-video-server/</guid>
+      <description>This project stemmed from the need of downloading files securely from iOS, an Apple TV or a Mac. A server written (from scratch) in Golang takes care of downloading all sorts of files, and through an app on the device, a user can add, pause, and remove downloads. A file still downloading on the server can then be downloaded on or live streamed to the phone. For video files, the server even supports live re-encoding of the files in an iOS-compatible format that follows Apple’s efficient HTTP Live Streaming (HLS) protocol.</description>
+    </item>
+    
+    <item>
+      <title>iOS Garage Door Opener</title>
+      <link>/project/ios-garage-door-opener/</link>
+      <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
+      
+      <guid>/project/ios-garage-door-opener/</guid>
+      <description>This project was done in freelance for a French start-up that takes an attempt at popularizing private parking space sharing. The goal was to build an iOS app that connects via Bluetooth-LE to a Raspberry-Pi with a sub-1 GHz transceiver dongle. Through the Raspberry Pi acting as a Bluetooth-LE interface to the dongle, the iOS App could listen, record, and transmit garage door opener signals.
+The Raspberry-Pi software implementation was done in Golang, as it allows cross-compilation of a single binary containing all required libraries, and allowed the code to be both portable and optimized.</description>
+    </item>
+    
+  </channel>
+</rss>

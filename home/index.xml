@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Alexandre Jouandin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
@@ -22,31 +22,14 @@
     </item>
     
     <item>
-      <title>Academic</title>
-      <link>/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
-      
-      <guid>/home/hero/</guid>
-      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/about/</guid>
-      <description>About me I am a dual degree student in Computer Science and Applied Mathematics. My first degree is a Master of Science from ENSEEIHT, where I learned software engineering and specialized in Big Data and High-Performance Computing. I am currently pursuing my studies at Georgia Tech to get a Master of Science in Computer Science with a specialization in Machine Learning.
-I’m very passionate about the field of Artificial Intelligence as I believe it has a huge potential for research.</description>
-    </item>
-    
-    <item>
-      <title>Skills</title>
-      <link>/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
-      
-      <guid>/home/skills/</guid>
-      <description></description>
+      <description>About me I am an enthusiastic Data Scientist that combines high-quality code to sound theory. Through my dual degree in Computer Science and Applied Mathematics, I built a solid academic groundwork that my various personal projects enabled me to consolidate.
+I am very passionate about everything in the field of Artificial Intelligence that contributes to transforming our lives ethically.
+As of today, the field still faces a few technological and theoretical barriers that we will overcome in the future, a future I would like to partake in.</description>
     </item>
     
     <item>
@@ -64,6 +47,15 @@ I’m very passionate about the field of Artificial Intelligence as I believe it
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Core values</title>
+      <link>/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/home/skills/</guid>
       <description></description>
     </item>
     
@@ -104,20 +96,20 @@ I’m very passionate about the field of Artificial Intelligence as I believe it
     </item>
     
     <item>
-      <title>Recent Posts</title>
-      <link>/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Projects</title>
       <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/home/posts/</guid>
       <description></description>
     </item>
     
@@ -129,6 +121,16 @@ I’m very passionate about the field of Artificial Intelligence as I believe it
       <guid>/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+    </item>
+    
+    <item>
+      <title>Hire me!</title>
+      <link>/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/home/hero/</guid>
+      <description>If you made it all the way down to here, we&amp;rsquo;re probably a good fit!
+I&amp;rsquo;m currently on the lookout for opportunities in the autonomous driving sector. Are you recruiting?</description>
     </item>
     
     <item>
