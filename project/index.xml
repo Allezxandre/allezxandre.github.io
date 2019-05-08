@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Tue, 15 Jan 2019 12:07:06 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 18:23:53 -0400</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Transformer Model</title>
+      <link>/project/transformer-model/</link>
+      <pubDate>Wed, 08 May 2019 18:23:53 -0400</pubDate>
+      
+      <guid>/project/transformer-model/</guid>
+      <description>Learning about the Attention Mechanism and the Transformer Model</description>
+    </item>
+    
+    <item>
+      <title>Recon-Blind Multi Chess</title>
+      <link>/project/recon-chess/</link>
+      <pubDate>Wed, 08 May 2019 17:00:30 -0400</pubDate>
+      
+      <guid>/project/recon-chess/</guid>
+      <description>Applying AlphaZero to a variant of Chess with imperfect information</description>
+    </item>
     
     <item>
       <title>TikTok Police</title>

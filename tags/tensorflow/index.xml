@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>robotics on Alexandre Jouandin</title>
-    <link>/tags/robotics/</link>
-    <description>Recent content in robotics on Alexandre Jouandin</description>
+    <title>tensorflow on Alexandre Jouandin</title>
+    <link>/tags/tensorflow/</link>
+    <description>Recent content in tensorflow on Alexandre Jouandin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
     <lastBuildDate>Wed, 08 May 2019 17:00:30 -0400</lastBuildDate>
     
-	<atom:link href="/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>/project/recon-chess/</guid>
       <description>Applying AlphaZero to a variant of Chess with imperfect information</description>
-    </item>
-    
-    <item>
-      <title>Turtlebot</title>
-      <link>/project/turtlebot/</link>
-      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
-      
-      <guid>/project/turtlebot/</guid>
-      <description>Simultaneous Localization and Mapping (SLAM) aided task planning</description>
     </item>
     
   </channel>

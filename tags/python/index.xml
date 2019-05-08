@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Fri, 04 May 2018 19:48:28 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 17:00:30 -0400</lastBuildDate>
     
 	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Recon-Blind Multi Chess</title>
+      <link>/project/recon-chess/</link>
+      <pubDate>Wed, 08 May 2019 17:00:30 -0400</pubDate>
+      
+      <guid>/project/recon-chess/</guid>
+      <description>Applying AlphaZero to a variant of Chess with imperfect information</description>
+    </item>
     
     <item>
       <title>Shrimp in Petri Dishes</title>
