@@ -18,8 +18,7 @@
       <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
       
       <guid>/project/ios-garage-door-opener/</guid>
-      <description>This project was done in freelance for a French start-up that takes an attempt at popularizing private parking space sharing. The goal was to build an iOS app that connects via Bluetooth-LE to a Raspberry-Pi with a sub-1 GHz transceiver dongle. Through the Raspberry Pi acting as a Bluetooth-LE interface to the dongle, the iOS App could listen, record, and transmit garage door opener signals.
-The Raspberry-Pi software implementation was done in Golang, as it allows cross-compilation of a single binary containing all required libraries, and allowed the code to be both portable and optimized.</description>
+      <description>Opening customer garage doors with an iPhone, a Raspberry-Pi, and a Radio dongle</description>
     </item>
     
   </channel>

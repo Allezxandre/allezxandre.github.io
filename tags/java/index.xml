@@ -18,10 +18,7 @@
       <pubDate>Tue, 14 Jun 2016 00:37:05 -0500</pubDate>
       
       <guid>/project/cinetix/</guid>
-      <description>This project was done in teams of 5 students in the context of a class on Advanced Software Engineering.
-We set as a goal to build a physics engine and a user interface. The end user would then be able to create objects and play with the physics engine through the user interface.
-This project involved an interesting mix of prototyping, Linear Algebra applications, UI design, and team workflows.
- Screenshot of the User Interface.</description>
+      <description>MacDraw/Paint meets a physics engine</description>
     </item>
     
   </channel>

@@ -18,8 +18,7 @@
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
       
       <guid>/project/shrimp-in-petri-dishes/</guid>
-      <description>In collaboration with faculty at Université de Lorraine, this project focused on the visual tracking of freshwater shrimp (Gammarus) in Petri dishes and used indicators about their movement to quantify the water quality (roughly, the more polluted the water, the less the shrimps will move).
-    Sample output of the resulting algorithm   The goal of the project was the implementation of individual shrimp tracking using image processing with minimal user involvement.</description>
+      <description>Using Computer Vision to assess water quality</description>
     </item>
     
     <item>
@@ -28,8 +27,7 @@
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
       
       <guid>/project/turtlebot/</guid>
-      <description>This project was done in pairs in the context of a class of Autonomous Robotics. We built SLAM-aided task planning software for ROS. The software was written in a mix of C++ and Python and ran on Kinect-enabled Turtlebots. We implemented:
- Object detection from laser data Object collision avoidance Face tracking Infrared-aided auto-docking Landmark recognition Visual localization WiFi signal localization Mapping Occupancy mapping Task planning  At the end of the project, the robot was able to carry-out a list of predefined tasks, namely undocking from its base, scouting around a building, mapping Wi-Fi hotspot locations, coming back to its starting point, and autodocking.</description>
+      <description>Simultaneous Localization and Mapping (SLAM) aided task planning</description>
     </item>
     
   </channel>

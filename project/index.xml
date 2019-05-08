@@ -18,8 +18,7 @@
       <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
       
       <guid>/project/tiktok-police/</guid>
-      <description>After my work on fraud detection at Karos, I was interested to see if I could identify harassers on TikTok, the popular video app. With TikTok being this popular among teenagers, and with so little control over privacy settings, I felt this was a serious matter TikTok would need to tackle at one point.
-This project is still a work in progress, but already gave right to many interesting developments that involved many of my skills: the creation of the dataset alone led to the use of many reverse-engineering techniques, from SSL API man-in-the-middling to app reverse-engineering through de-compilation.</description>
+      <description>Using Machine Learning to protect kids on TikTok</description>
     </item>
     
     <item>
@@ -28,8 +27,7 @@ This project is still a work in progress, but already gave right to many interes
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
       
       <guid>/project/shrimp-in-petri-dishes/</guid>
-      <description>In collaboration with faculty at Université de Lorraine, this project focused on the visual tracking of freshwater shrimp (Gammarus) in Petri dishes and used indicators about their movement to quantify the water quality (roughly, the more polluted the water, the less the shrimps will move).
-    Sample output of the resulting algorithm   The goal of the project was the implementation of individual shrimp tracking using image processing with minimal user involvement.</description>
+      <description>Using Computer Vision to assess water quality</description>
     </item>
     
     <item>
@@ -38,8 +36,7 @@ This project is still a work in progress, but already gave right to many interes
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
       
       <guid>/project/turtlebot/</guid>
-      <description>This project was done in pairs in the context of a class of Autonomous Robotics. We built SLAM-aided task planning software for ROS. The software was written in a mix of C++ and Python and ran on Kinect-enabled Turtlebots. We implemented:
- Object detection from laser data Object collision avoidance Face tracking Infrared-aided auto-docking Landmark recognition Visual localization WiFi signal localization Mapping Occupancy mapping Task planning  At the end of the project, the robot was able to carry-out a list of predefined tasks, namely undocking from its base, scouting around a building, mapping Wi-Fi hotspot locations, coming back to its starting point, and autodocking.</description>
+      <description>Simultaneous Localization and Mapping (SLAM) aided task planning</description>
     </item>
     
     <item>
@@ -48,7 +45,7 @@ This project is still a work in progress, but already gave right to many interes
       <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
       
       <guid>/project/high-performance-video-server/</guid>
-      <description>This project stemmed from the need of downloading files securely from iOS, an Apple TV or a Mac. A server written (from scratch) in Golang takes care of downloading all sorts of files, and through an app on the device, a user can add, pause, and remove downloads. A file still downloading on the server can then be downloaded on or live streamed to the phone. For video files, the server even supports live re-encoding of the files in an iOS-compatible format that follows Apple’s efficient HTTP Live Streaming (HLS) protocol.</description>
+      <description>A high performance download server</description>
     </item>
     
     <item>
@@ -57,8 +54,7 @@ This project is still a work in progress, but already gave right to many interes
       <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
       
       <guid>/project/ios-garage-door-opener/</guid>
-      <description>This project was done in freelance for a French start-up that takes an attempt at popularizing private parking space sharing. The goal was to build an iOS app that connects via Bluetooth-LE to a Raspberry-Pi with a sub-1 GHz transceiver dongle. Through the Raspberry Pi acting as a Bluetooth-LE interface to the dongle, the iOS App could listen, record, and transmit garage door opener signals.
-The Raspberry-Pi software implementation was done in Golang, as it allows cross-compilation of a single binary containing all required libraries, and allowed the code to be both portable and optimized.</description>
+      <description>Opening customer garage doors with an iPhone, a Raspberry-Pi, and a Radio dongle</description>
     </item>
     
     <item>
@@ -67,10 +63,7 @@ The Raspberry-Pi software implementation was done in Golang, as it allows cross-
       <pubDate>Tue, 14 Jun 2016 00:37:05 -0500</pubDate>
       
       <guid>/project/cinetix/</guid>
-      <description>This project was done in teams of 5 students in the context of a class on Advanced Software Engineering.
-We set as a goal to build a physics engine and a user interface. The end user would then be able to create objects and play with the physics engine through the user interface.
-This project involved an interesting mix of prototyping, Linear Algebra applications, UI design, and team workflows.
- Screenshot of the User Interface.</description>
+      <description>MacDraw/Paint meets a physics engine</description>
     </item>
     
     <item>
@@ -79,8 +72,7 @@ This project involved an interesting mix of prototyping, Linear Algebra applicat
       <pubDate>Mon, 14 Mar 2016 00:37:24 -0500</pubDate>
       
       <guid>/project/international-geek-week/</guid>
-      <description>This is an iPad app that was used as an interactive quiz for an exposition on climate change based in Toulouse. The app featured questions that compared France and UK on various ecologic fields, and visitors had to pick answers by sliding the countries flags on a numeric scale.
-I built the app from scratch. I built the user interface and its animations, the logic behind the app, and even the questions for the Quiz.</description>
+      <description>An iPad interactive quiz</description>
     </item>
     
     <item>
@@ -89,8 +81,7 @@ I built the app from scratch. I built the user interface and its animations, the
       <pubDate>Sat, 29 Nov 2014 00:19:28 -0500</pubDate>
       
       <guid>/project/smart-frenchize/</guid>
-      <description>A watchface for the Pebble Watch that displays useful informations like weather, now playing music, and upcoming calendar events on your wrist.
-The app used a third-party iPhone App to pull data from the phone. I first drafted the design for the watch app. I then developed a logic behind the watch app behavior: it was able to switch screens or change button actions cleverly. I also used the latest features available at the time on the Pebble watch, like permanent storage to make the watch app work even without a connection to the phone.</description>
+      <description>A Watch Application for the (now defunct) family of Pebble Smartwatches</description>
     </item>
     
   </channel>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alexandre Jouandin on Alexandre Jouandin</title>
+    <title>Alexandre Jouandin</title>
     <link>/</link>
-    <description>Recent content in Alexandre Jouandin on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Alexandre Jouandin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jan 2019 12:07:06 -0500</lastBuildDate>
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>TikTok Police</title>
@@ -239,6 +241,16 @@ play with the physics engine through the user interface.&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+  
+  
+
+
 &lt;div class=&#34;gallery&#34;&gt;
 
   
@@ -249,24 +261,27 @@ play with the physics engine through the user interface.&lt;/p&gt;
     
     
     
+    
   &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen1.png&#34; &gt;
-  &lt;img src=&#34;/project/international-geek-week/screens/screen1.png&#34; alt=&#34;&#34;&gt;
+  &lt;img src=&#34;/project/international-geek-week/screens/screen1_hu6e96e9a8bf47f1fa3d8c1e2b3f08edfb_922708_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
+    
     
     
     
     
   &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen2.png&#34; &gt;
-  &lt;img src=&#34;/project/international-geek-week/screens/screen2.png&#34; alt=&#34;&#34;&gt;
+  &lt;img src=&#34;/project/international-geek-week/screens/screen2_hu6e96e9a8bf47f1fa3d8c1e2b3f08edfb_1436199_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
     
     
     
+    
   &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen3.png&#34; &gt;
-  &lt;img src=&#34;/project/international-geek-week/screens/screen3.png&#34; alt=&#34;&#34;&gt;
+  &lt;img src=&#34;/project/international-geek-week/screens/screen3_hu6e96e9a8bf47f1fa3d8c1e2b3f08edfb_1528191_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 

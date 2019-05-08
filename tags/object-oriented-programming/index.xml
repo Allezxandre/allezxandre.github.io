@@ -18,7 +18,16 @@
       <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
       
       <guid>/project/high-performance-video-server/</guid>
-      <description>This project stemmed from the need of downloading files securely from iOS, an Apple TV or a Mac. A server written (from scratch) in Golang takes care of downloading all sorts of files, and through an app on the device, a user can add, pause, and remove downloads. A file still downloading on the server can then be downloaded on or live streamed to the phone. For video files, the server even supports live re-encoding of the files in an iOS-compatible format that follows Apple’s efficient HTTP Live Streaming (HLS) protocol.</description>
+      <description>A high performance download server</description>
+    </item>
+    
+    <item>
+      <title>CinetiX</title>
+      <link>/project/cinetix/</link>
+      <pubDate>Tue, 14 Jun 2016 00:37:05 -0500</pubDate>
+      
+      <guid>/project/cinetix/</guid>
+      <description>MacDraw/Paint meets a physics engine</description>
     </item>
     
     <item>
@@ -27,8 +36,7 @@
       <pubDate>Mon, 14 Mar 2016 00:37:24 -0500</pubDate>
       
       <guid>/project/international-geek-week/</guid>
-      <description>This is an iPad app that was used as an interactive quiz for an exposition on climate change based in Toulouse. The app featured questions that compared France and UK on various ecologic fields, and visitors had to pick answers by sliding the countries flags on a numeric scale.
-I built the app from scratch. I built the user interface and its animations, the logic behind the app, and even the questions for the Quiz.</description>
+      <description>An iPad interactive quiz</description>
     </item>
     
   </channel>

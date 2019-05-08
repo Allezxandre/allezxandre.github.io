@@ -18,8 +18,7 @@
       <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
       
       <guid>/project/tiktok-police/</guid>
-      <description>After my work on fraud detection at Karos, I was interested to see if I could identify harassers on TikTok, the popular video app. With TikTok being this popular among teenagers, and with so little control over privacy settings, I felt this was a serious matter TikTok would need to tackle at one point.
-This project is still a work in progress, but already gave right to many interesting developments that involved many of my skills: the creation of the dataset alone led to the use of many reverse-engineering techniques, from SSL API man-in-the-middling to app reverse-engineering through de-compilation.</description>
+      <description>Using Machine Learning to protect kids on TikTok</description>
     </item>
     
   </channel>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandre Jouandin</title>
+    <link>/authors/alexandre/</link>
+    <description>Recent content on Alexandre Jouandin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
+    
+	<atom:link href="/authors/alexandre/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/authors/alexandre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/alexandre/</guid>
+      <description>I am an enthusiastic Data Scientist that combines high-quality code to sound theory. Through my dual degree in Computer Science and Applied Mathematics, I built a solid academic groundwork that my various personal projects enabled me to consolidate.
+I am very passionate about everything in the field of Artificial Intelligence that contributes to transforming our lives ethically.
+As of today, the field still faces a few technological and theoretical barriers that we will overcome in the future, a future I would like to partake in.</description>
+    </item>
+    
+  </channel>
+</rss>
