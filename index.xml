@@ -41,7 +41,7 @@
 &lt;p&gt;This project was developed in groups of 2 as the final project for a Robotics class.
 We developed an artificial agent to play the game of reconnaissance blind multi-chess (RBMC) by learning from self-play.&lt;/p&gt;
 
-&lt;p&gt;Recon Blind Multi-Chess (RBMC) is a version of chess where each opponent cannot see the other’s moves in real time. At the beginning of each turn, a player may &amp;ldquo;sense&amp;rdquo; a 3×3 section of the board to know the true state of that board for that moment in time, giving a glimpse of any opponent activity in the area.&lt;/p&gt;
+&lt;p&gt;Recon Blind Multi-Chess (RBMC) is a version of chess where each opponent cannot see the other&amp;rsquo;s moves in real time. At the beginning of each turn, a player may &amp;ldquo;sense&amp;rdquo; a 3×3 section of the board to know the true state of that board for that moment in time, giving a glimpse of any opponent activity in the area.&lt;/p&gt;
 
 &lt;p&gt;For a complete comprehensive rule guide, see this link: &lt;a href=&#34;https://reconchess.readthedocs.io/en/latest/rules.html&#34; target=&#34;_blank&#34;&gt;https://reconchess.readthedocs.io/en/latest/rules.html&lt;/a&gt;&lt;/p&gt;
 
@@ -65,7 +65,7 @@ The training of the algorithms was performed on Google Cloud.&lt;/p&gt;
 
 &lt;p&gt;As an instance of &amp;ldquo;the snake chasing its tail&amp;rdquo;, the Neural Network has to be efficient for the MCTS to work optimally, but we also need the MCTS to perform somewhat accurately in the early epochs of training to direct the Neural Network training. In practice, we considered a number of strategies to prune our search tree, including foregoing exhaustive expansion of all root nodes during game simulation but still enforcing at the expansion step. We believe our MCTS implementation is robust enough since even with a randomly weighted Neural Network, the agent wins more games against the random agent.&lt;/p&gt;
 
-&lt;h1 id=&#34;contribution&#34;&gt;Contribution&lt;/h1&gt;
+&lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
 
 &lt;p&gt;My main contribution was on the MCTS tree. I worked on implementing the MCTS tree from the AlphaZero paper while adapting it to our imperfect-information variant of the game.
 This work covered the handling of the pre-turn sensing, as the results of the sensing are used to prune the tree.&lt;/p&gt;
