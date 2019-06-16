@@ -216,7 +216,7 @@ scouting around a building, mapping Wi-Fi hotspot locations, coming back to its 
       <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
       
       <guid>/project/high-performance-video-server/</guid>
-      <description>&lt;p&gt;This project stemmed from the need of downloading files securely from iOS, an Apple TV or a Mac. A server written (from scratch) in Golang takes care of downloading all sorts of files, and through an app on the device, a user can add, pause, and remove downloads. A file still downloading on the server can then be downloaded on or live streamed to the phone. For video files, the server even supports live re-encoding of the files in an iOS-compatible format that follows Apple’s efficient HTTP Live Streaming (HLS) protocol.&lt;/p&gt;
+      <description>&lt;p&gt;This project stemmed from the need of downloading files securely from iOS, an Apple TV or a Mac. A server written (from scratch) in Golang takes care of downloading all sorts of files, and through an app on the device, a user can add, pause, and remove downloads. A file still downloading on the server can thereupon be downloaded on or live streamed to the phone. For video files, the server even supports live re-encoding of the files in an iOS-compatible format that follows Apple’s efficient HTTP Live Streaming (HLS) protocol.&lt;/p&gt;
 
 
 
@@ -243,6 +243,13 @@ scouting around a building, mapping Wi-Fi hotspot locations, coming back to its 
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
+
+&lt;p&gt;The benefits here are two folds:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The download goes as fast as possible;&lt;/li&gt;
+&lt;li&gt;No battery is wasted, as the iOS device is always downloading the most efficient version of a file.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;The code makes extensive use of Golang’s concurrency features, which was chosen for this purpose. Communications between the server and the applications use gRPC, Google’s modern take on the RPC protocol that supports HTTP/2 out of the box. The code also re-implements a good deal of Apple’s HLS server tools like the segmenters, the variant playlist creator. Along with the conversion, those are handled through calls to the FFmpeg open-source framework.&lt;/p&gt;
 </description>
