@@ -5,19 +5,31 @@
   <url>
     <loc>/</loc>
     <lastmod>2019-05-08T18:23:53-04:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2019-05-08T18:23:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2019-05-08T18:23:53-04:00</lastmod>
   </url>
   
   <url>
     <loc>/project/</loc>
     <lastmod>2019-05-08T18:23:53-04:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/pytorch/</loc>
+    <lastmod>2019-05-08T18:23:53-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <lastmod>2019-05-08T18:23:53-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -26,21 +38,13 @@
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2019-05-08T18:23:53-04:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/keras/</loc>
+    <lastmod>2019-05-08T17:00:30-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/machine-learning/</loc>
-    <lastmod>2019-05-08T18:23:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/pytorch/</loc>
-    <lastmod>2019-05-08T18:23:53-04:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/python/</loc>
+    <lastmod>2019-05-08T17:00:30-04:00</lastmod>
   </url>
   
   <url>
@@ -49,27 +53,23 @@
   </url>
   
   <url>
-    <loc>/tags/keras/</loc>
-    <lastmod>2019-05-08T17:00:30-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/python/</loc>
-    <lastmod>2019-05-08T17:00:30-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/robotics/</loc>
     <lastmod>2019-05-08T17:00:30-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/tensorflow/</loc>
     <lastmod>2019-05-08T17:00:30-04:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/computer-security/</loc>
+    <lastmod>2019-01-15T12:07:06-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/reverse-engineering/</loc>
+    <lastmod>2019-01-15T12:07:06-05:00</lastmod>
   </url>
   
   <url>
@@ -78,27 +78,23 @@
   </url>
   
   <url>
-    <loc>/tags/computer-security/</loc>
-    <lastmod>2019-01-15T12:07:06-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/reverse-engineering/</loc>
-    <lastmod>2019-01-15T12:07:06-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/c/c&#43;&#43;/</loc>
     <lastmod>2018-05-04T19:48:28-05:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/computer-vision/</loc>
+    <lastmod>2018-05-04T19:48:28-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/opencv/</loc>
+    <lastmod>2018-05-04T19:48:28-05:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/ros/</loc>
     <lastmod>2018-05-04T19:48:28-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -112,15 +108,13 @@
   </url>
   
   <url>
-    <loc>/tags/computer-vision/</loc>
-    <lastmod>2018-05-04T19:48:28-05:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/golang/</loc>
+    <lastmod>2018-03-30T10:36:54-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/opencv/</loc>
-    <lastmod>2018-05-04T19:48:28-05:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/ios/</loc>
+    <lastmod>2018-03-30T10:36:54-05:00</lastmod>
   </url>
   
   <url>
@@ -129,33 +123,18 @@
   </url>
   
   <url>
-    <loc>/tags/golang/</loc>
-    <lastmod>2018-03-30T10:36:54-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ios/</loc>
-    <lastmod>2018-03-30T10:36:54-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/object-oriented-programming/</loc>
     <lastmod>2018-03-30T10:36:54-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/swift/</loc>
     <lastmod>2018-03-30T10:36:54-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/embed-systems/</loc>
     <lastmod>2017-02-14T17:35:46-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -166,7 +145,6 @@
   <url>
     <loc>/tags/raspberry-pi/</loc>
     <lastmod>2017-02-14T17:35:46-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -177,7 +155,6 @@
   <url>
     <loc>/tags/java/</loc>
     <lastmod>2016-06-14T00:37:05-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -200,12 +177,10 @@
   
   <url>
     <loc>/authors/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -214,7 +189,6 @@
   
   <url>
     <loc>/publication_types/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

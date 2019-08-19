@@ -103,15 +103,6 @@
     </item>
     
     <item>
-      <title>ROS</title>
-      <link>/tags/ros/</link>
-      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
-      
-      <guid>/tags/ros/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>computer-vision</title>
       <link>/tags/computer-vision/</link>
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
@@ -126,6 +117,15 @@
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
       
       <guid>/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>/tags/ros/</link>
+      <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
+      
+      <guid>/tags/ros/</guid>
       <description></description>
     </item>
     
@@ -148,7 +148,7 @@
     </item>
     
     <item>
-      <title>object-oriented-programming</title>
+      <title>Object-Oriented-Programming</title>
       <link>/tags/object-oriented-programming/</link>
       <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
       
