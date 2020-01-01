@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>embed-systems on Alexandre Jouandin</title>
+    <title>embed-systems | Alexandre Jouandin</title>
     <link>/tags/embed-systems/</link>
-    <description>Recent content in embed-systems on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Tue, 14 Feb 2017 17:35:46 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/embed-systems/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/embed-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>embed-systems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Tue, 14 Feb 2017 17:35:46 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>embed-systems</title>
+      <link>/tags/embed-systems/</link>
+    </image>
     
     <item>
       <title>iOS Garage Door Opener</title>
       <link>/project/ios-garage-door-opener/</link>
       <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
-      
       <guid>/project/ios-garage-door-opener/</guid>
-      <description>Opening customer garage doors with an iPhone, a Raspberry-Pi, and a Radio dongle</description>
+      <description>&lt;p&gt;This project was done in freelance for a French start-up that takes an attempt at popularizing private parking space sharing. The goal was to build an iOS app that connects via Bluetooth-LE to a Raspberry-Pi with a &lt;a href=&#34;https://greatscottgadgets.com/yardstickone/&#34;&gt;sub-1 GHz transceiver dongle&lt;/a&gt;. Through the Raspberry Pi acting as a Bluetooth-LE interface to the dongle, the iOS App could listen, record, and transmit garage door opener signals.&lt;/p&gt;
+&lt;p&gt;The Raspberry-Pi software implementation was done in Golang, as it allows cross-compilation of a single binary containing all required libraries, and allowed the code to be both portable and optimized. The communication between the iOS device and the Raspberry-Pi was handled using GATT from the Bluetooth-LE protocol. The dongle was later replaced by lower-level transceivers that were operated through the Raspberry-Pi&#39;s GPIO ports.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Smart Frenchize</title>
       <link>/project/smart-frenchize/</link>
       <pubDate>Sat, 29 Nov 2014 00:19:28 -0500</pubDate>
-      
       <guid>/project/smart-frenchize/</guid>
-      <description>A Watch Application for the (now defunct) family of Pebble Smartwatches</description>
+      <description>&lt;p&gt;A watchface for the Pebble Watch that displays useful informations like weather, now playing music, and upcoming calendar events on your wrist.&lt;/p&gt;
+&lt;p&gt;The app used a third-party iPhone App to pull data from the phone. I first drafted the design for the watch app. I then developed a logic behind the watch app behavior: it was able to switch screens or change button actions cleverly. I also used the latest features available at the time on the Pebble watch, like permanent storage to make the watch app work even without a connection to the phone.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

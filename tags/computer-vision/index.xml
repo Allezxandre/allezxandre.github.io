@@ -1,33 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computer-vision on Alexandre Jouandin</title>
+    <title>computer-vision | Alexandre Jouandin</title>
     <link>/tags/computer-vision/</link>
-    <description>Recent content in computer-vision on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Fri, 04 May 2018 19:48:28 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer-vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Fri, 04 May 2018 19:48:28 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>computer-vision</title>
+      <link>/tags/computer-vision/</link>
+    </image>
     
     <item>
       <title>Shrimp in Petri Dishes</title>
       <link>/project/shrimp-in-petri-dishes/</link>
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
-      
       <guid>/project/shrimp-in-petri-dishes/</guid>
-      <description>Using Computer Vision to assess water quality</description>
+      <description>&lt;p&gt;In collaboration with faculty at Université de Lorraine, this project focused on the &lt;strong&gt;visual tracking of freshwater shrimp&lt;/strong&gt; (&lt;em&gt;Gammarus&lt;/em&gt;) in Petri dishes and used indicators about their movement to quantify the water quality (roughly, the more polluted the water, the less the shrimps will move).&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;demo/clip5-output.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;demo/clip5-output.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;demo/clip5-output.gif&#34;/&gt;
+&lt;img src=&#34;demo/clip5-output.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    Sample output of the resulting algorithm
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;p&gt;The goal of the project was the implementation of individual shrimp tracking using image processing with minimal user involvement. Through this tracking, the algorithm was able to compute the movement of the shrimp from a video or a camera feed. Environmental research scientists at &lt;a href=&#34;https://en.wikipedia.org/wiki/University_of_Lorraine&#34;&gt;Université de Lorraine&lt;/a&gt; were then to use the software to quantify the water pollution more efficiently, as up to the completion of the project the tracking was done by hand by the research scientists.&lt;/p&gt;
+&lt;p&gt;The implementation used &lt;strong&gt;OpenCV&lt;/strong&gt; for image processing, edge detection and contour detection. The tracking was performed using the &lt;a href=&#34;https://wikipedia.org/wiki/Hungarian_algorithm&#34;&gt;&lt;strong&gt;Hungarian matching algorithm&lt;/strong&gt;&lt;/a&gt; and a &lt;a href=&#34;https://wikipedia.org/wiki/Kalman_filter&#34;&gt;&lt;strong&gt;Kalman filter&lt;/strong&gt;&lt;/a&gt;. Through this customized tracking algorithm, the software is able to keep track of each individual shrimp even in complex situations like blurry motion, and crossings with other shrimp.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Turtlebot</title>
       <link>/project/turtlebot/</link>
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
-      
       <guid>/project/turtlebot/</guid>
-      <description>Simultaneous Localization and Mapping (SLAM) aided task planning</description>
+      <description>&lt;p&gt;This project was done in pairs in the context of a class of Autonomous Robotics. We built SLAM-aided task planning software for ROS. The software was written in a mix of C++ and Python and ran on Kinect-enabled &lt;a href=&#34;https://www.turtlebot.com&#34;&gt;Turtlebots&lt;/a&gt;. We implemented:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Object detection from laser data&lt;/li&gt;
+&lt;li&gt;Object collision avoidance&lt;/li&gt;
+&lt;li&gt;Face tracking&lt;/li&gt;
+&lt;li&gt;Infrared-aided auto-docking&lt;/li&gt;
+&lt;li&gt;Landmark recognition&lt;/li&gt;
+&lt;li&gt;Visual localization&lt;/li&gt;
+&lt;li&gt;WiFi signal localization&lt;/li&gt;
+&lt;li&gt;Mapping&lt;/li&gt;
+&lt;li&gt;Occupancy mapping&lt;/li&gt;
+&lt;li&gt;Task planning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At the end of the project, the robot was able to carry-out a list of predefined tasks, namely undocking from its base,
+scouting around a building, mapping Wi-Fi hotspot locations, coming back to its starting point, and autodocking.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;demo/turtlebot.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
     </item>
     
   </channel>

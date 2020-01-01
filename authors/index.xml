@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Alexandre Jouandin</title>
+    <title>Authors | Alexandre Jouandin</title>
     <link>/authors/</link>
-    <description>Recent content in Authors on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    
-	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
     
     <item>
       <title></title>
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/authors/admin/</guid>
-      <description>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title></title>
       <link>/authors/alexandre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/authors/alexandre/</guid>
-      <description>I am an enthusiastic Data Scientist that combines high-quality code to sound theory. Through my dual degree in Computer Science and Applied Mathematics, I built a solid academic groundwork that my various personal projects enabled me to consolidate.
-I am very passionate about everything in the field of Artificial Intelligence that contributes to transforming our lives ethically.
-As of today, the field still faces a few technological and theoretical barriers that we will overcome in the future, a future I would like to partake in.</description>
+      <description>&lt;p&gt;I am an &lt;strong&gt;enthusiastic Data Scientist&lt;/strong&gt; that combines high-quality code to sound theory. Through my &lt;strong&gt;dual degree&lt;/strong&gt; in Computer Science and Applied Mathematics, I built a &lt;strong&gt;solid academic groundwork&lt;/strong&gt; that my various personal projects enabled me to consolidate.&lt;/p&gt;
+&lt;p&gt;I am very &lt;strong&gt;passionate&lt;/strong&gt; about everything in the field of &lt;strong&gt;Artificial Intelligence&lt;/strong&gt; that contributes to transforming our lives ethically.&lt;/p&gt;
+&lt;p&gt;As of today, the field still faces a few technological and theoretical barriers that we will overcome in the future, a future I would like to partake in.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -3,13 +3,14 @@
   <channel>
     <title>Alexandre Jouandin</title>
     <link>/authors/alexandre/</link>
-    <description>Recent content on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    
-	<atom:link href="/authors/alexandre/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/alexandre/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexandre Jouandin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Alexandre Jouandin</title>
+      <link>/authors/alexandre/</link>
+    </image>
     
   </channel>
 </rss>

@@ -1,33 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reverse-engineering on Alexandre Jouandin</title>
+    <title>reverse-engineering | Alexandre Jouandin</title>
     <link>/tags/reverse-engineering/</link>
-    <description>Recent content in reverse-engineering on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Tue, 15 Jan 2019 12:07:06 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/reverse-engineering/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/reverse-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <description>reverse-engineering</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Tue, 15 Jan 2019 12:07:06 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>reverse-engineering</title>
+      <link>/tags/reverse-engineering/</link>
+    </image>
     
     <item>
       <title>TikTok Police</title>
       <link>/project/tiktok-police/</link>
       <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
-      
       <guid>/project/tiktok-police/</guid>
-      <description>Using Machine Learning to protect kids on TikTok</description>
+      <description>&lt;p&gt;After my work on fraud detection at Karos, I was interested to see if I could &lt;strong&gt;identify harassers on TikTok&lt;/strong&gt;, the popular video app.
+With TikTok being this popular among teenagers, and with so little control over privacy settings, I felt this was a serious matter TikTok would need to tackle at one point.&lt;/p&gt;
+&lt;p&gt;This project is still a work in progress, but already gave right to many interesting developments that involved many of my skills: the creation of the dataset alone led to the use of many reverse-engineering techniques, from SSL API man-in-the-middling to app reverse-engineering through de-compilation.&lt;/p&gt;
+&lt;p&gt;I am currently writing a blog post to describe this process of data creation, but below is a screen capture of the complex set-up I came up with to circumvent TikTok&#39;s counter-measures against bots:&lt;/p&gt;
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;/img/tik-tok-demo/anim.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;/img/tik-tok-demo/anim.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;/img/tik-tok-demo/anim.gif&#34;/&gt;
+&lt;img src=&#34;/img/tik-tok-demo/anim.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    The dataset creation system in action
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;p&gt;As of today, I have finished cleaning the data and selecting features. I am now working on creating various models of prediction and will present the results shortly after.&lt;/p&gt;
+&lt;h2 id=&#34;stay-tuned&#34;&gt;Stay tuned!&lt;/h2&gt;
+</description>
     </item>
     
     <item>
       <title>iOS Garage Door Opener</title>
       <link>/project/ios-garage-door-opener/</link>
       <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
-      
       <guid>/project/ios-garage-door-opener/</guid>
-      <description>Opening customer garage doors with an iPhone, a Raspberry-Pi, and a Radio dongle</description>
+      <description>&lt;p&gt;This project was done in freelance for a French start-up that takes an attempt at popularizing private parking space sharing. The goal was to build an iOS app that connects via Bluetooth-LE to a Raspberry-Pi with a &lt;a href=&#34;https://greatscottgadgets.com/yardstickone/&#34;&gt;sub-1 GHz transceiver dongle&lt;/a&gt;. Through the Raspberry Pi acting as a Bluetooth-LE interface to the dongle, the iOS App could listen, record, and transmit garage door opener signals.&lt;/p&gt;
+&lt;p&gt;The Raspberry-Pi software implementation was done in Golang, as it allows cross-compilation of a single binary containing all required libraries, and allowed the code to be both portable and optimized. The communication between the iOS device and the Raspberry-Pi was handled using GATT from the Bluetooth-LE protocol. The dongle was later replaced by lower-level transceivers that were operated through the Raspberry-Pi&#39;s GPIO ports.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

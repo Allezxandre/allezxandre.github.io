@@ -1,33 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C/C&#43;&#43; on Alexandre Jouandin</title>
+    <title>C/C&#43;&#43; | Alexandre Jouandin</title>
     <link>/tags/c/c&#43;&#43;/</link>
-    <description>Recent content in C/C&#43;&#43; on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Fri, 04 May 2018 19:48:28 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/c/c++/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/c/c++/index.xml" rel="self" type="application/rss+xml" />
+    <description>C/C&#43;&#43;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Fri, 04 May 2018 19:48:28 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>C/C&#43;&#43;</title>
+      <link>/tags/c/c&#43;&#43;/</link>
+    </image>
     
     <item>
       <title>Turtlebot</title>
       <link>/project/turtlebot/</link>
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
-      
       <guid>/project/turtlebot/</guid>
-      <description>Simultaneous Localization and Mapping (SLAM) aided task planning</description>
+      <description>&lt;p&gt;This project was done in pairs in the context of a class of Autonomous Robotics. We built SLAM-aided task planning software for ROS. The software was written in a mix of C++ and Python and ran on Kinect-enabled &lt;a href=&#34;https://www.turtlebot.com&#34;&gt;Turtlebots&lt;/a&gt;. We implemented:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Object detection from laser data&lt;/li&gt;
+&lt;li&gt;Object collision avoidance&lt;/li&gt;
+&lt;li&gt;Face tracking&lt;/li&gt;
+&lt;li&gt;Infrared-aided auto-docking&lt;/li&gt;
+&lt;li&gt;Landmark recognition&lt;/li&gt;
+&lt;li&gt;Visual localization&lt;/li&gt;
+&lt;li&gt;WiFi signal localization&lt;/li&gt;
+&lt;li&gt;Mapping&lt;/li&gt;
+&lt;li&gt;Occupancy mapping&lt;/li&gt;
+&lt;li&gt;Task planning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At the end of the project, the robot was able to carry-out a list of predefined tasks, namely undocking from its base,
+scouting around a building, mapping Wi-Fi hotspot locations, coming back to its starting point, and autodocking.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;demo/turtlebot.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
     </item>
     
     <item>
       <title>Smart Frenchize</title>
       <link>/project/smart-frenchize/</link>
       <pubDate>Sat, 29 Nov 2014 00:19:28 -0500</pubDate>
-      
       <guid>/project/smart-frenchize/</guid>
-      <description>A Watch Application for the (now defunct) family of Pebble Smartwatches</description>
+      <description>&lt;p&gt;A watchface for the Pebble Watch that displays useful informations like weather, now playing music, and upcoming calendar events on your wrist.&lt;/p&gt;
+&lt;p&gt;The app used a third-party iPhone App to pull data from the phone. I first drafted the design for the watch app. I then developed a logic behind the watch app behavior: it was able to switch screens or change button actions cleverly. I also used the latest features available at the time on the Pebble watch, like permanent storage to make the watch app work even without a connection to the phone.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

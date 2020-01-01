@@ -1,42 +1,121 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Alexandre Jouandin</title>
+    <title>python | Alexandre Jouandin</title>
     <link>/tags/python/</link>
-    <description>Recent content in python on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Wed, 08 May 2019 17:00:30 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>python</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Wed, 08 May 2019 17:00:30 -0400</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>python</title>
+      <link>/tags/python/</link>
+    </image>
     
     <item>
       <title>Recon-Blind Multi Chess</title>
       <link>/project/recon-chess/</link>
       <pubDate>Wed, 08 May 2019 17:00:30 -0400</pubDate>
-      
       <guid>/project/recon-chess/</guid>
-      <description>Applying AlphaZero to a variant of Chess with imperfect information</description>
+      <description>&lt;h1 id=&#34;recon-blind-multi-chess-rbmc&#34;&gt;Recon Blind Multi-Chess (RBMC)&lt;/h1&gt;
+&lt;p&gt;This project was developed in groups of 2 as the final project for a Robotics class.
+We developed an artificial agent to play the game of reconnaissance blind multi-chess (RBMC) by learning from self-play.&lt;/p&gt;
+&lt;p&gt;Recon Blind Multi-Chess (RBMC) is a version of chess where each opponent cannot see the other&#39;s moves in real time. At the beginning of each turn, a player may &amp;ldquo;sense&amp;rdquo; a 3×3 section of the board to know the true state of that board for that moment in time, giving a glimpse of any opponent activity in the area.&lt;/p&gt;
+&lt;p&gt;For a complete comprehensive rule guide, see this link: &lt;a href=&#34;https://reconchess.readthedocs.io/en/latest/rules.html&#34;&gt;https://reconchess.readthedocs.io/en/latest/rules.html&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;approach&#34;&gt;Approach&lt;/h1&gt;
+&lt;p&gt;Unlike classic chess, where possible board configurations has size ~10&lt;sup&gt;123&lt;/sup&gt;, RBMC&#39;s complexity is complicated by uncertainty in the observation of opponent&#39;s pieces and moves.
+The game-tree complexity is exponentially expanded under imperfect information and can rival that of modern complex games like Go.&lt;/p&gt;
+&lt;h2 id=&#34;adapting-alphazero-to-recon-chess&#34;&gt;Adapting AlphaZero to Recon-Chess&lt;/h2&gt;
+&lt;p&gt;Inspired by recent successes at DeepMind in applying Monte-Carlo Tree Search to play a number of board games given only game rules, we took the novel approach of training a Neural Network to supplement an MCTS to play an imperfect information game. We use entropy defined as the distribution of piece type at each square to greedily guide our sensing, which is then utilized to aggressively prune the MCTS.&lt;/p&gt;
+&lt;h2 id=&#34;technologies&#34;&gt;Technologies&lt;/h2&gt;
+&lt;p&gt;The code was written in Python 3.5, and the Deep Learning Framework in use was Keras with a Tensorflow backend.
+The training of the algorithms was performed on Google Cloud.&lt;/p&gt;
+&lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
+&lt;p&gt;In AlphaZero, because the game is fully observable, only one root node is used to represent the current board state at each turn. In our case however we have to expand from multiple roots that all share the prior probability of being the current state. Our approach then tries its bets to expand on all possible states, while using information received from sensing to efficiently prune subtrees.&lt;/p&gt;
+&lt;p&gt;As an instance of &amp;ldquo;the snake chasing its tail&amp;rdquo;, the Neural Network has to be efficient for the MCTS to work optimally, but we also need the MCTS to perform somewhat accurately in the early epochs of training to direct the Neural Network training. In practice, we considered a number of strategies to prune our search tree, including foregoing exhaustive expansion of all root nodes during game simulation but still enforcing at the expansion step. We believe our MCTS implementation is robust enough since even with a randomly weighted Neural Network, the agent wins more games against the random agent.&lt;/p&gt;
+&lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
+&lt;p&gt;My main contribution was on the MCTS tree. I worked on implementing the MCTS tree from the AlphaZero paper while adapting it to our imperfect-information variant of the game.
+This work covered the handling of the pre-turn sensing, as the results of the sensing are used to prune the tree.&lt;/p&gt;
+&lt;p&gt;I also worked on adding multi-processing capabilities to the MCTS: since we&#39;re working with multiple root nodes, I was able to implement tree-parallelism as each subtree is independent of the others.&lt;/p&gt;
+&lt;p&gt;Finally, I worked on the training workflow. Since training on one computer was slow, I refactored the code to make it work across multiple Google Compute Engine instances that run in parallel and upload their game results to Cloud Storage. I then adjusted the training code to fetch this training data and to upload new versions of the model.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Shrimp in Petri Dishes</title>
       <link>/project/shrimp-in-petri-dishes/</link>
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
-      
       <guid>/project/shrimp-in-petri-dishes/</guid>
-      <description>Using Computer Vision to assess water quality</description>
+      <description>&lt;p&gt;In collaboration with faculty at Université de Lorraine, this project focused on the &lt;strong&gt;visual tracking of freshwater shrimp&lt;/strong&gt; (&lt;em&gt;Gammarus&lt;/em&gt;) in Petri dishes and used indicators about their movement to quantify the water quality (roughly, the more polluted the water, the less the shrimps will move).&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;demo/clip5-output.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;demo/clip5-output.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;demo/clip5-output.gif&#34;/&gt;
+&lt;img src=&#34;demo/clip5-output.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    Sample output of the resulting algorithm
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;p&gt;The goal of the project was the implementation of individual shrimp tracking using image processing with minimal user involvement. Through this tracking, the algorithm was able to compute the movement of the shrimp from a video or a camera feed. Environmental research scientists at &lt;a href=&#34;https://en.wikipedia.org/wiki/University_of_Lorraine&#34;&gt;Université de Lorraine&lt;/a&gt; were then to use the software to quantify the water pollution more efficiently, as up to the completion of the project the tracking was done by hand by the research scientists.&lt;/p&gt;
+&lt;p&gt;The implementation used &lt;strong&gt;OpenCV&lt;/strong&gt; for image processing, edge detection and contour detection. The tracking was performed using the &lt;a href=&#34;https://wikipedia.org/wiki/Hungarian_algorithm&#34;&gt;&lt;strong&gt;Hungarian matching algorithm&lt;/strong&gt;&lt;/a&gt; and a &lt;a href=&#34;https://wikipedia.org/wiki/Kalman_filter&#34;&gt;&lt;strong&gt;Kalman filter&lt;/strong&gt;&lt;/a&gt;. Through this customized tracking algorithm, the software is able to keep track of each individual shrimp even in complex situations like blurry motion, and crossings with other shrimp.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Turtlebot</title>
       <link>/project/turtlebot/</link>
       <pubDate>Fri, 04 May 2018 19:48:28 -0500</pubDate>
-      
       <guid>/project/turtlebot/</guid>
-      <description>Simultaneous Localization and Mapping (SLAM) aided task planning</description>
+      <description>&lt;p&gt;This project was done in pairs in the context of a class of Autonomous Robotics. We built SLAM-aided task planning software for ROS. The software was written in a mix of C++ and Python and ran on Kinect-enabled &lt;a href=&#34;https://www.turtlebot.com&#34;&gt;Turtlebots&lt;/a&gt;. We implemented:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Object detection from laser data&lt;/li&gt;
+&lt;li&gt;Object collision avoidance&lt;/li&gt;
+&lt;li&gt;Face tracking&lt;/li&gt;
+&lt;li&gt;Infrared-aided auto-docking&lt;/li&gt;
+&lt;li&gt;Landmark recognition&lt;/li&gt;
+&lt;li&gt;Visual localization&lt;/li&gt;
+&lt;li&gt;WiFi signal localization&lt;/li&gt;
+&lt;li&gt;Mapping&lt;/li&gt;
+&lt;li&gt;Occupancy mapping&lt;/li&gt;
+&lt;li&gt;Task planning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At the end of the project, the robot was able to carry-out a list of predefined tasks, namely undocking from its base,
+scouting around a building, mapping Wi-Fi hotspot locations, coming back to its starting point, and autodocking.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;demo/turtlebot.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
     </item>
     
   </channel>

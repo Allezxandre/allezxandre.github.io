@@ -1,24 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computer-security on Alexandre Jouandin</title>
+    <title>computer-security | Alexandre Jouandin</title>
     <link>/tags/computer-security/</link>
-    <description>Recent content in computer-security on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Tue, 15 Jan 2019 12:07:06 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/computer-security/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/computer-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer-security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Tue, 15 Jan 2019 12:07:06 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>computer-security</title>
+      <link>/tags/computer-security/</link>
+    </image>
     
     <item>
       <title>TikTok Police</title>
       <link>/project/tiktok-police/</link>
       <pubDate>Tue, 15 Jan 2019 12:07:06 -0500</pubDate>
-      
       <guid>/project/tiktok-police/</guid>
-      <description>Using Machine Learning to protect kids on TikTok</description>
+      <description>&lt;p&gt;After my work on fraud detection at Karos, I was interested to see if I could &lt;strong&gt;identify harassers on TikTok&lt;/strong&gt;, the popular video app.
+With TikTok being this popular among teenagers, and with so little control over privacy settings, I felt this was a serious matter TikTok would need to tackle at one point.&lt;/p&gt;
+&lt;p&gt;This project is still a work in progress, but already gave right to many interesting developments that involved many of my skills: the creation of the dataset alone led to the use of many reverse-engineering techniques, from SSL API man-in-the-middling to app reverse-engineering through de-compilation.&lt;/p&gt;
+&lt;p&gt;I am currently writing a blog post to describe this process of data creation, but below is a screen capture of the complex set-up I came up with to circumvent TikTok&#39;s counter-measures against bots:&lt;/p&gt;
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;/img/tik-tok-demo/anim.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;/img/tik-tok-demo/anim.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;/img/tik-tok-demo/anim.gif&#34;/&gt;
+&lt;img src=&#34;/img/tik-tok-demo/anim.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    The dataset creation system in action
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;p&gt;As of today, I have finished cleaning the data and selecting features. I am now working on creating various models of prediction and will present the results shortly after.&lt;/p&gt;
+&lt;h2 id=&#34;stay-tuned&#34;&gt;Stay tuned!&lt;/h2&gt;
+</description>
     </item>
     
   </channel>

@@ -1,42 +1,150 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Object-Oriented-Programming on Alexandre Jouandin</title>
+    <title>Object-Oriented-Programming | Alexandre Jouandin</title>
     <link>/tags/object-oriented-programming/</link>
-    <description>Recent content in Object-Oriented-Programming on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Fri, 30 Mar 2018 10:36:54 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/object-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/object-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Object-Oriented-Programming</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Fri, 30 Mar 2018 10:36:54 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Object-Oriented-Programming</title>
+      <link>/tags/object-oriented-programming/</link>
+    </image>
     
     <item>
       <title>JouTube</title>
       <link>/project/high-performance-video-server/</link>
       <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
-      
       <guid>/project/high-performance-video-server/</guid>
-      <description>A high performance download server</description>
+      <description>&lt;p&gt;This project stemmed from the need of downloading files securely from iOS, an Apple TV or a Mac. A server written (from scratch) in Golang takes care of downloading all sorts of files, and through an app on the device, a user can add, pause, and remove downloads. A file still downloading on the server can then be downloaded on or live streamed to the phone. For video files, the server even supports live re-encoding of the files in an iOS-compatible format that follows Apple’s efficient HTTP Live Streaming (HLS) protocol.&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;screens.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;screens.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;screens.gif&#34;/&gt;
+&lt;img src=&#34;screens.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    On-the-fly re-encoding of a download by the server
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;p&gt;The code makes extensive use of Golang’s concurrency features, which was chosen for this purpose. Communications between the server and the applications use gRPC, Google’s modern take on the RPC protocol that supports HTTP/2 out of the box. The code also re-implements a good deal of Apple’s HLS server tools like the segmenters, the variant playlist creator. Along with the conversion, those are handled through calls to the FFmpeg open-source framework.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>CinetiX</title>
       <link>/project/cinetix/</link>
       <pubDate>Tue, 14 Jun 2016 00:37:05 -0500</pubDate>
-      
       <guid>/project/cinetix/</guid>
-      <description>MacDraw/Paint meets a physics engine</description>
+      <description>&lt;p&gt;This project was done in teams of 5 students in the context of a class on Advanced Software Engineering.&lt;/p&gt;
+&lt;p&gt;We set as a goal to build a physics engine and a user interface. The end user would then be able to create objects and
+play with the physics engine through the user interface.&lt;/p&gt;
+&lt;p&gt;This project involved an interesting mix of prototyping, Linear Algebra applications, UI design, and team workflows.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;demo/screen1.png&#34; data-caption=&#34;Screenshot of the User Interface.&#34;&gt;
+&lt;img data-src=&#34;demo/screen1.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Screenshot of the User Interface.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
     <item>
       <title>International Geek Week</title>
       <link>/project/international-geek-week/</link>
       <pubDate>Mon, 14 Mar 2016 00:37:24 -0500</pubDate>
-      
       <guid>/project/international-geek-week/</guid>
-      <description>An iPad interactive quiz</description>
+      <description>&lt;p&gt;This is an iPad app that was used as an interactive quiz for an exposition on climate change based in Toulouse. The app featured questions that compared France and UK on various ecologic fields, and visitors had to pick answers by sliding the countries flags on a numeric scale.&lt;/p&gt;
+&lt;p&gt;I built the app from scratch. I built the user interface and its animations, the logic behind the app, and even the questions for the Quiz. The app was meant to be run on an iPad 2, which does not handle blurs natively, so I had to backport code responsible for blur effects myself, and as a student in the Applied Mathematics field, I found this back porting experience to be very formative. At the exhibition, the quiz had a lot of success, because it made people grasp orders of magnitude by themselves. I was conducting the quiz, and seeing people figure out how to use the app by themselves was very gratifying for me.&lt;/p&gt;
+&lt;p&gt;The code is kept in a private repository for copyright purposes, but here are some screenshots of the finished application:&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen1.png&#34; &gt;
+  &lt;img data-src=&#34;/project/international-geek-week/screens/screen1_hu6e96e9a8bf47f1fa3d8c1e2b3f08edfb_922708_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen2.png&#34; &gt;
+  &lt;img data-src=&#34;/project/international-geek-week/screens/screen2_hu6e96e9a8bf47f1fa3d8c1e2b3f08edfb_1436199_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-screens&#34; href=&#34;/project/international-geek-week/screens/screen3.png&#34; &gt;
+  &lt;img data-src=&#34;/project/international-geek-week/screens/screen3_hu6e96e9a8bf47f1fa3d8c1e2b3f08edfb_1528191_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

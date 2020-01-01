@@ -1,24 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Alexandre Jouandin</title>
+    <title>Java | Alexandre Jouandin</title>
     <link>/tags/java/</link>
-    <description>Recent content in Java on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Tue, 14 Jun 2016 00:37:05 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <description>Java</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Tue, 14 Jun 2016 00:37:05 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Java</title>
+      <link>/tags/java/</link>
+    </image>
     
     <item>
       <title>CinetiX</title>
       <link>/project/cinetix/</link>
       <pubDate>Tue, 14 Jun 2016 00:37:05 -0500</pubDate>
-      
       <guid>/project/cinetix/</guid>
-      <description>MacDraw/Paint meets a physics engine</description>
+      <description>&lt;p&gt;This project was done in teams of 5 students in the context of a class on Advanced Software Engineering.&lt;/p&gt;
+&lt;p&gt;We set as a goal to build a physics engine and a user interface. The end user would then be able to create objects and
+play with the physics engine through the user interface.&lt;/p&gt;
+&lt;p&gt;This project involved an interesting mix of prototyping, Linear Algebra applications, UI design, and team workflows.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;demo/screen1.png&#34; data-caption=&#34;Screenshot of the User Interface.&#34;&gt;
+&lt;img data-src=&#34;demo/screen1.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Screenshot of the User Interface.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
   </channel>

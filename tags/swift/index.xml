@@ -1,33 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>swift on Alexandre Jouandin</title>
+    <title>swift | Alexandre Jouandin</title>
     <link>/tags/swift/</link>
-    <description>Recent content in swift on Alexandre Jouandin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Alexandre Jouandin</copyright>
-    <lastBuildDate>Fri, 30 Mar 2018 10:36:54 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/swift/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <description>swift</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Alexandre Jouandin</copyright><lastBuildDate>Fri, 30 Mar 2018 10:36:54 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>swift</title>
+      <link>/tags/swift/</link>
+    </image>
     
     <item>
       <title>JouTube</title>
       <link>/project/high-performance-video-server/</link>
       <pubDate>Fri, 30 Mar 2018 10:36:54 -0500</pubDate>
-      
       <guid>/project/high-performance-video-server/</guid>
-      <description>A high performance download server</description>
+      <description>&lt;p&gt;This project stemmed from the need of downloading files securely from iOS, an Apple TV or a Mac. A server written (from scratch) in Golang takes care of downloading all sorts of files, and through an app on the device, a user can add, pause, and remove downloads. A file still downloading on the server can then be downloaded on or live streamed to the phone. For video files, the server even supports live re-encoding of the files in an iOS-compatible format that follows Apple’s efficient HTTP Live Streaming (HLS) protocol.&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;picture&gt;
+&lt;source type=&#34;video/mp4&#34; srcset=&#34;screens.mp4&#34;/&gt;
+&lt;source type=&#34;video/webm&#34; srcset=&#34;screens.webm&#34;/&gt;
+&lt;source type=&#34;image/gif&#34; srcset=&#34;screens.gif&#34;/&gt;
+&lt;img src=&#34;screens.gif&#34; alt=&#34;Sorry, your browser does not seem to support HTML5 animated images.&#34; /&gt;
+&lt;/picture&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    On-the-fly re-encoding of a download by the server
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;p&gt;The code makes extensive use of Golang’s concurrency features, which was chosen for this purpose. Communications between the server and the applications use gRPC, Google’s modern take on the RPC protocol that supports HTTP/2 out of the box. The code also re-implements a good deal of Apple’s HLS server tools like the segmenters, the variant playlist creator. Along with the conversion, those are handled through calls to the FFmpeg open-source framework.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>iOS Garage Door Opener</title>
       <link>/project/ios-garage-door-opener/</link>
       <pubDate>Tue, 14 Feb 2017 17:35:46 -0500</pubDate>
-      
       <guid>/project/ios-garage-door-opener/</guid>
-      <description>Opening customer garage doors with an iPhone, a Raspberry-Pi, and a Radio dongle</description>
+      <description>&lt;p&gt;This project was done in freelance for a French start-up that takes an attempt at popularizing private parking space sharing. The goal was to build an iOS app that connects via Bluetooth-LE to a Raspberry-Pi with a &lt;a href=&#34;https://greatscottgadgets.com/yardstickone/&#34;&gt;sub-1 GHz transceiver dongle&lt;/a&gt;. Through the Raspberry Pi acting as a Bluetooth-LE interface to the dongle, the iOS App could listen, record, and transmit garage door opener signals.&lt;/p&gt;
+&lt;p&gt;The Raspberry-Pi software implementation was done in Golang, as it allows cross-compilation of a single binary containing all required libraries, and allowed the code to be both portable and optimized. The communication between the iOS device and the Raspberry-Pi was handled using GATT from the Bluetooth-LE protocol. The dongle was later replaced by lower-level transceivers that were operated through the Raspberry-Pi&#39;s GPIO ports.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
